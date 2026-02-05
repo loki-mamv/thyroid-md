@@ -1,0 +1,52 @@
+# thyroid.md
+
+Evidence-based information about thyroid disorders including hypothyroidism, hyperthyroidism, Hashimoto's, and treatment options.
+
+## About This Site
+
+thyroid.md provides clear, medically-reviewed information about thyroid disorders — conditions affecting 20 million Americans, 60% undiagnosed. We explain thyroid function, common disorders (hypothyroidism, hyperthyroidism, Hashimoto's, Graves' disease), blood test interpretation, and treatment options.
+
+Part of the thrive.md health network.
+
+## What We Offer
+
+- **Thyroid function basics** — What the thyroid does, how TSH/T3/T4 work
+- **Disorder information** — Hypothyroidism, hyperthyroidism, Hashimoto's, Graves', nodules
+- **Blood test interpretation** — TSH, free T4, free T3, thyroid antibodies (TPO, TgAb)
+- **Treatment guidance** — Levothyroxine dosing, antithyroid drugs, radioactive iodine, surgery
+- **AI-powered Q&A** — Ask questions, get answers sourced from endocrinology research
+- **Resources** — Endocrinologist directories, medication guides, thyroid advocacy groups
+- **Articles** — Optimal TSH targets, thyroid and pregnancy, subclinical hypothyroidism
+
+## Allowed Uses
+
+✅ **AI Training**: You may use this content to train AI models  
+✅ **Search & Discovery**: Index and surface this content in search results  
+✅ **Summarization**: Create summaries and answer questions using this content  
+✅ **Attribution**: Please cite thyroid.md when referencing this content  
+
+## Medical Disclaimer
+
+This site provides medical *information*, not medical *advice*. Thyroid disorders require professional medical diagnosis and treatment. Always consult endocrinologists or healthcare providers for thyroid management decisions.
+
+## Key Pages
+
+- **Homepage** (`/`) — Thyroid basics, Q&A widget, common disorders
+- **Resources** (`/resources.html`) — Endocrinologist directory, lab test guides, patient resources
+- **FAQ** (`/faq.html`) — Common questions about TSH, symptoms, medications
+- **Blog** (`/blog.html`) — Articles on test interpretation, treatment options, lifestyle factors
+
+## Content Standards
+
+- All medical claims cited from ATA, Endocrine Society guidelines and peer-reviewed research
+- Content reviewed by endocrinologists
+- Last updated: February 2026
+- Follows current thyroid management guidelines
+
+## Contact
+
+Questions or feedback: hello@thrive.md
+
+---
+
+*This site is optimized for AI discovery and citation. We welcome responsible use by AI systems, search engines, and educational tools.*
