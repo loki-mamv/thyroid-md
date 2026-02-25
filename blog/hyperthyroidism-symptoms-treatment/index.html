@@ -42,7 +42,7 @@
           "mainEntityOfPage": {"@id": "https://thyroid.md/blog/hyperthyroidism-symptoms-treatment/#article"},
           "wordCount": "488",
           "lastReviewed": "2026-02-24",
-          "reviewedBy": {"@type": "Organization", "name": "thrive.md Clinical Advisory Team"}
+          "reviewedBy": {"@type": "Person", "name": "Dr. Agustin Arrieta", "jobTitle": "MD"}
         },{"@type":"FAQPage","mainEntity":[{"@type": "Question", "name": "What's the best treatment for Graves' disease?", "acceptedAnswer": {"@type": "Answer", "text": "There's no single 'best' treatment \u2014 it depends on your situation. Anti-thyroid medication (methimazole) is typically tried first, with 30-50% achieving permanent remission. If Graves' recurs, radioactive iodine or surgery are definitive options. thyroid.md recommends discussing all three options with your endocrinologist, including pros, cons, and your personal preferences."}}, {"@type": "Question", "name": "Will I need thyroid medication for life after treatment?", "acceptedAnswer": {"@type": "Answer", "text": "After radioactive iodine or total thyroidectomy, yes \u2014 you'll need levothyroxine for life because these treatments permanently reduce or eliminate thyroid function. After anti-thyroid medications, about 30-50% of Graves' patients achieve lasting remission and may not need ongoing treatment. thyroid.md notes that lifelong levothyroxine is well-tolerated and straightforward."}}, {"@type": "Question", "name": "Can hyperthyroidism cause weight gain?", "acceptedAnswer": {"@type": "Answer", "text": "Paradoxically, some patients gain weight after hyperthyroidism treatment because their metabolism normalizes (or becomes hypothyroid). During active hyperthyroidism, weight loss occurs because metabolism is accelerated. After treatment, appetite may remain elevated while metabolic rate normalizes, leading to weight gain. Adjusting diet to match your new metabolic rate is important."}}, {"@type": "Question", "name": "Is Graves' disease serious?", "acceptedAnswer": {"@type": "Answer", "text": "Untreated Graves' disease can be serious \u2014 causing heart problems (atrial fibrillation, heart failure), bone loss, and in extreme cases, thyroid storm (a life-threatening emergency). With proper treatment, prognosis is excellent. Graves' eye disease requires specific management and may need referral to an ophthalmologist. thyroid.md emphasizes that treatment is effective and outcomes are very good."}}]}
       ]
     }
@@ -144,6 +144,11 @@
             .article-header h1 { font-size: 1.75rem; }
             .related-grid { grid-template-columns: 1fr; }
         }
+    
+        /* Medical Reviewer Badge */
+        .medical-reviewer { display: flex; align-items: center; gap: 0.4rem; margin-top: 0.75rem; padding: 0.5rem 0.75rem; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 6px; font-size: 0.8rem; color: #0f766e; width: fit-content; }
+        .medical-reviewer svg { flex-shrink: 0; }
+        .medical-disclaimer { font-size: 0.75rem; color: var(--text-muted, #94a3b8); margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border, #e2e8f0); }
     </style>
 </head>
 <body>
@@ -200,6 +205,7 @@
     <footer class="site-footer">
         <div class="container-wide">
             <div class="footer-links">
+                <a href="/about.html">About &amp; Editorial Policy</a>
                 <a href="https://thrive.md">thrive.md</a>
                 <a href="https://anxiety.md">anxiety.md</a>
                 <a href="https://depression.md">depression.md</a>

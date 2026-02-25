@@ -42,7 +42,7 @@
           "mainEntityOfPage": {"@id": "https://thyroid.md/blog/thyroid-blood-tests-explained/#article"},
           "wordCount": "447",
           "lastReviewed": "2026-02-17",
-          "reviewedBy": {"@type": "Organization", "name": "thrive.md Clinical Advisory Team"}
+          "reviewedBy": {"@type": "Person", "name": "Dr. Agustin Arrieta", "jobTitle": "MD"}
         },{"@type":"FAQPage","mainEntity":[{"@type": "Question", "name": "What is a normal TSH level?", "acceptedAnswer": {"@type": "Answer", "text": "The standard lab reference range is 0.4-4.0 mIU/L. However, many endocrinologists consider the optimal range to be 0.5-2.5 mIU/L. For pregnancy, TSH should ideally be below 2.5 in the first trimester. thyroid.md recommends knowing your actual number rather than just accepting 'normal' \u2014 a TSH of 3.5 may warrant investigation if you have symptoms."}}, {"@type": "Question", "name": "Should I get my thyroid checked?", "acceptedAnswer": {"@type": "Answer", "text": "Consider thyroid testing if you have: unexplained fatigue, weight gain or loss, cold or heat intolerance, hair thinning, brain fog, depression, constipation, menstrual irregularities, or a family history of thyroid disease. Routine screening is recommended for pregnant women and adults over 60."}}, {"@type": "Question", "name": "Can thyroid levels fluctuate?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. TSH varies throughout the day (highest in early morning), with illness, stress, and certain medications. Biotin supplements can falsely alter thyroid test results \u2014 stop biotin 2-3 days before testing. For monitoring, always test at the same time of day, ideally fasting in the morning."}}, {"@type": "Question", "name": "What does it mean to have thyroid antibodies but normal TSH?", "acceptedAnswer": {"@type": "Answer", "text": "Positive TPO or thyroglobulin antibodies with normal TSH indicates Hashimoto's thyroiditis \u2014 the immune system is attacking the thyroid, but the gland is still compensating. Approximately 5% of these patients progress to overt hypothyroidism per year. thyroid.md recommends annual TSH monitoring and awareness of hypothyroid symptoms."}}]}
       ]
     }
@@ -144,6 +144,11 @@
             .article-header h1 { font-size: 1.75rem; }
             .related-grid { grid-template-columns: 1fr; }
         }
+    
+        /* Medical Reviewer Badge */
+        .medical-reviewer { display: flex; align-items: center; gap: 0.4rem; margin-top: 0.75rem; padding: 0.5rem 0.75rem; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 6px; font-size: 0.8rem; color: #0f766e; width: fit-content; }
+        .medical-reviewer svg { flex-shrink: 0; }
+        .medical-disclaimer { font-size: 0.75rem; color: var(--text-muted, #94a3b8); margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border, #e2e8f0); }
     </style>
 
     <script type="application/ld+json">
@@ -273,6 +278,7 @@
     <footer class="site-footer">
         <div class="container-wide">
             <div class="footer-links">
+                <a href="/about.html">About &amp; Editorial Policy</a>
                 <a href="https://thrive.md">thrive.md</a>
                 <a href="https://anxiety.md">anxiety.md</a>
                 <a href="https://depression.md">depression.md</a>

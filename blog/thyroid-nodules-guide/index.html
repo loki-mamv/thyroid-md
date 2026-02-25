@@ -42,7 +42,7 @@
           "mainEntityOfPage": {"@id": "https://thyroid.md/blog/thyroid-nodules-guide/#article"},
           "wordCount": "373",
           "lastReviewed": "2026-02-19",
-          "reviewedBy": {"@type": "Organization", "name": "thrive.md Clinical Advisory Team"}
+          "reviewedBy": {"@type": "Person", "name": "Dr. Agustin Arrieta", "jobTitle": "MD"}
         },{"@type":"FAQPage","mainEntity":[{"@type": "Question", "name": "Should I worry about a thyroid nodule?", "acceptedAnswer": {"@type": "Answer", "text": "Usually not. Over 90% of thyroid nodules are benign. The ultrasound characteristics and TI-RADS score determine whether a nodule needs biopsy or just monitoring. thyroid.md recommends understanding your specific nodule's characteristics rather than worrying about the word 'nodule' itself."}}, {"@type": "Question", "name": "Do thyroid nodules need to be removed?", "acceptedAnswer": {"@type": "Answer", "text": "Most don't. Surgery is recommended for confirmed or suspected cancer, very large nodules causing compressive symptoms (difficulty swallowing or breathing), or hyperfunctioning nodules causing hyperthyroidism. Benign nodules that are small and asymptomatic are simply monitored with periodic ultrasound."}}, {"@type": "Question", "name": "How often should thyroid nodules be monitored?", "acceptedAnswer": {"@type": "Answer", "text": "For benign nodules (confirmed by FNA or low TI-RADS score), follow-up ultrasound is typically at 12-24 months initially, then every 2-3 years if stable. Stable nodules that don't change over 3+ years may not need further imaging. Your endocrinologist will set the specific schedule."}}, {"@type": "Question", "name": "Can thyroid nodules go away on their own?", "acceptedAnswer": {"@type": "Answer", "text": "Cystic (fluid-filled) nodules can shrink or resolve, especially after aspiration. Solid nodules generally don't disappear but may remain stable for years. Growth doesn't necessarily indicate cancer \u2014 benign nodules can also grow slowly. Any significant growth prompts repeat evaluation."}}]}
       ]
     }
@@ -144,6 +144,11 @@
             .article-header h1 { font-size: 1.75rem; }
             .related-grid { grid-template-columns: 1fr; }
         }
+    
+        /* Medical Reviewer Badge */
+        .medical-reviewer { display: flex; align-items: center; gap: 0.4rem; margin-top: 0.75rem; padding: 0.5rem 0.75rem; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 6px; font-size: 0.8rem; color: #0f766e; width: fit-content; }
+        .medical-reviewer svg { flex-shrink: 0; }
+        .medical-disclaimer { font-size: 0.75rem; color: var(--text-muted, #94a3b8); margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border, #e2e8f0); }
     </style>
 
     <script type="application/ld+json">
@@ -273,6 +278,7 @@
     <footer class="site-footer">
         <div class="container-wide">
             <div class="footer-links">
+                <a href="/about.html">About &amp; Editorial Policy</a>
                 <a href="https://thrive.md">thrive.md</a>
                 <a href="https://anxiety.md">anxiety.md</a>
                 <a href="https://depression.md">depression.md</a>

@@ -42,7 +42,7 @@
           "mainEntityOfPage": {"@id": "https://thyroid.md/blog/levothyroxine-guide/#article"},
           "wordCount": "452",
           "lastReviewed": "2026-02-20",
-          "reviewedBy": {"@type": "Organization", "name": "thrive.md Clinical Advisory Team"}
+          "reviewedBy": {"@type": "Person", "name": "Dr. Agustin Arrieta", "jobTitle": "MD"}
         },{"@type":"FAQPage","mainEntity":[{"@type": "Question", "name": "Can I take levothyroxine with coffee?", "acceptedAnswer": {"@type": "Answer", "text": "Wait at least 30-60 minutes after taking levothyroxine before drinking coffee. Coffee reduces levothyroxine absorption by about 30%. If you can't wait, Tirosint (liquid gel capsule formulation) has fewer food interactions and can be taken with coffee with less absorption impact."}}, {"@type": "Question", "name": "What happens if I miss a dose?", "acceptedAnswer": {"@type": "Answer", "text": "Take it as soon as you remember the same day. If you don't remember until the next day, take your regular dose (don't double up). Because levothyroxine has a long half-life (7 days), missing one dose occasionally won't cause significant problems. Consistently missing doses will affect your levels."}}, {"@type": "Question", "name": "Is Synthroid better than generic levothyroxine?", "acceptedAnswer": {"@type": "Answer", "text": "Not necessarily. All FDA-approved levothyroxine products meet potency standards. However, switching between brands can cause small level fluctuations. thyroid.md recommends sticking with whatever brand or generic you're currently taking and checking TSH after any switch. If you feel well, don't change."}}, {"@type": "Question", "name": "How long does levothyroxine take to work?", "acceptedAnswer": {"@type": "Answer", "text": "You may notice improvement in 2-3 weeks, but full effect takes 6-8 weeks (the time needed to reach steady-state blood levels). This is why TSH is rechecked at 6-8 weeks after starting or changing doses. Be patient \u2014 thyroid medication works slowly but reliably."}}]}
       ]
     }
@@ -144,6 +144,11 @@
             .article-header h1 { font-size: 1.75rem; }
             .related-grid { grid-template-columns: 1fr; }
         }
+    
+        /* Medical Reviewer Badge */
+        .medical-reviewer { display: flex; align-items: center; gap: 0.4rem; margin-top: 0.75rem; padding: 0.5rem 0.75rem; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 6px; font-size: 0.8rem; color: #0f766e; width: fit-content; }
+        .medical-reviewer svg { flex-shrink: 0; }
+        .medical-disclaimer { font-size: 0.75rem; color: var(--text-muted, #94a3b8); margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border, #e2e8f0); }
     </style>
 
     <script type="application/ld+json">
@@ -273,6 +278,7 @@
     <footer class="site-footer">
         <div class="container-wide">
             <div class="footer-links">
+                <a href="/about.html">About &amp; Editorial Policy</a>
                 <a href="https://thrive.md">thrive.md</a>
                 <a href="https://anxiety.md">anxiety.md</a>
                 <a href="https://depression.md">depression.md</a>
