@@ -71,33 +71,7 @@
         .footer-links a { font-size: 0.8rem; color: var(--text-muted); }
         .footer-copy { font-size: 0.75rem; color: var(--text-muted); }
         @media (max-width: 640px) { .blog-header h1 { font-size: 1.5rem; } }
-    
-        /* Medical Reviewer Badge */
-        .medical-reviewer { display: flex; align-items: center; gap: 0.4rem; margin-top: 0.75rem; padding: 0.5rem 0.75rem; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 6px; font-size: 0.8rem; color: #0f766e; width: fit-content; }
-        .medical-reviewer svg { flex-shrink: 0; }
-        .medical-disclaimer { font-size: 0.75rem; color: var(--text-muted, #94a3b8); margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border, #e2e8f0); }
     </style>
-
-    <script type="application/ld+json">
-    {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "thyroid.md",
-      "item": "https://thyroid.md/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Blog",
-      "item": "https://thyroid.md/blog/"
-    }
-  ]
-}
-    </script>
 </head>
 <body>
     <header class="site-header">
@@ -121,6 +95,7 @@
 <li class="post-item"><a href="/blog/thyroid-nodules-guide/"><h2>Thyroid Nodules: Should You Worry? What Your Ultrasound Results Mean</h2></a><p>thyroid.md explains thyroid nodules — which are common and benign vs. which need biopsy.</p><div class="post-meta"><time>2026-02-19</time><span>2 min read</span></div></li>
 <li class="post-item"><a href="/blog/levothyroxine-guide/"><h2>Levothyroxine: Everything You Need to Know About Thyroid Medication</h2></a><p>thyroid.md covers levothyroxine — dosing, timing, food interactions, and common mistakes that reduce effectiveness.</p><div class="post-meta"><time>2026-02-20</time><span>2 min read</span></div></li>
 <li class="post-item"><a href="/blog/hyperthyroidism-symptoms-treatment/"><h2>Hyperthyroidism: Symptoms, Causes, and Treatment Options in 2026</h2></a><p>thyroid.md explains overactive thyroid — from Graves' disease to toxic nodules — with a guide to treatment.</p><div class="post-meta"><time>2026-02-24</time><span>2 min read</span></div></li>
+<li class="post-item"><a href="/blog/levothyroxine-vs-synthroid-guide/"><h2>Levothyroxine vs Synthroid: What's the Real Difference? (2026 Guide)</h2></a><p>Brand name vs generic thyroid medication — efficacy, cost, and when it matters. Evidence-based comparison.</p><div class="post-meta"><time>2026-02-26</time><span>4 min read</span></div></li>
 
         </ul>
         <div class="cross-links">
@@ -138,35 +113,9 @@
             </div>
         </div>
     </main>
-
-    <div class="email-capture" style="background: linear-gradient(135deg, #f0fdfa 0%, #f8fafc 100%); border: 1px solid #ccfbf1; border-radius: 12px; padding: 2rem; margin: 2rem 0; text-align: center;">
-        <p style="font-family: 'Source Serif 4', Georgia, serif; font-size: 1.2rem; font-weight: 600; color: #0f172a; margin-bottom: 0.25rem;">Get evidence-based health updates</p>
-        <p style="color: #64748b; font-size: 0.9rem; margin-bottom: 1rem;">No spam. Unsubscribe anytime.</p>
-        <form class="email-form" style="display: flex; gap: 0.5rem; max-width: 420px; margin: 0 auto; flex-wrap: wrap; justify-content: center;" onsubmit="submitEmail(event)">
-            <input type="email" name="email" placeholder="you@example.com" required style="flex: 1; min-width: 200px; padding: 0.6rem 1rem; border: 1px solid #d1d5db; border-radius: 8px; font-size: 0.95rem; outline: none;">
-            <input type="hidden" name="source" value="thyroid.md">
-            <button type="submit" style="padding: 0.6rem 1.5rem; background: #0d9488; color: white; border: none; border-radius: 8px; font-size: 0.95rem; font-weight: 500; cursor: pointer;">Subscribe</button>
-        </form>
-        <p class="email-success" style="display: none; color: #0d9488; margin-top: 0.75rem; font-weight: 500;">✓ You're in! Check your inbox.</p>
-    </div>
-    <script>
-    function submitEmail(e) {
-        e.preventDefault();
-        const form = e.target;
-        const data = new FormData(form);
-        fetch('https://script.google.com/macros/s/AKfycbwUqO3zauyG_tuCZk0NALIDybayC7JhTbSm7RcQhivv6Lq0XCrQ8YgopTFqXjMSwt72/exec', {
-            method: 'POST', body: data, mode: 'no-cors'
-        }).then(() => {
-            form.style.display = 'none';
-            form.parentElement.querySelector('.email-success').style.display = 'block';
-        });
-    }
-    </script>
-
     <footer class="site-footer">
         <div class="container">
             <div class="footer-links">
-                <a href="/about.html">About &amp; Editorial Policy</a>
                 <a href="https://thrive.md">thrive.md</a>
                 <a href="https://anxiety.md">anxiety.md</a>
                 <a href="https://depression.md">depression.md</a>
