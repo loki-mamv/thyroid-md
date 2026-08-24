@@ -1,15 +1,373 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6H85DH0R8S');gtag('config','G-7NVTG9KGE5"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-6H85DH0R8S');gtag('config','G-7NVTG9KGE5');</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAQ — thyroid.md</title>
-    <link rel="canonical" href="https://thyroid.md/">
-    <meta http-equiv="refresh" content="0; url=https://thyroid.md/">
-    <style>body{font-family:'Inter',-apple-system,system-ui,sans-serif;color:#0f172a;max-width:640px;margin:0 auto;padding:96px 24px;line-height:1.7}a{color:#0d9488}</style>
+    <title>Thyroid FAQ — Common Questions About Symptoms, Labs, and Treatment</title>
+    <meta name="description" content="Answers to common questions about thyroid disorders: TSH testing, hypothyroidism and hyperthyroidism symptoms, Hashimoto&#x27;s disease, and levothyroxine treatment.">
+    <link rel="canonical" href="https://thyroid.md/faq.html">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext x='16' y='24' font-family='-apple-system,system-ui,sans-serif' font-weight='800' font-size='16' fill='%230d9488' text-anchor='middle' letter-spacing='-0.5'%3E.md%3C/text%3E%3C/svg%3E">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #ffffff;
+            --bg-secondary: #f8fafc;
+            --text-primary: #0f172a;
+            --text-secondary: #475569;
+            --text-muted: #94a3b8;
+            --accent: #0d9488;
+            --accent-dark: #0f766e;
+            --border: #e2e8f0;
+            --font-display: 'Source Serif 4', Georgia, serif;
+            --font-body: 'Inter', -apple-system, sans-serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+        }
+        header {
+            position: sticky; top: 0; z-index: 100;
+            background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+        }
+        .header-inner {
+            max-width: 1100px; margin: 0 auto; padding: 16px 24px;
+            display: flex; justify-content: space-between; align-items: center;
+        }
+        .logo {
+            font-family: var(--font-display); font-size: 22px; font-weight: 600;
+            color: var(--text-primary); text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        nav { display: flex; gap: 32px; }
+        nav a {
+            color: var(--text-secondary); text-decoration: none;
+            font-size: 14px; font-weight: 500; transition: color 0.2s;
+        }
+        nav a:hover { color: var(--accent); }
+        .page-header {
+            max-width: 720px; margin: 0 auto; padding: 80px 24px 48px;
+        }
+        h1 {
+            font-family: var(--font-display); font-size: 42px;
+            font-weight: 700; margin-bottom: 16px;
+        }
+        .page-intro {
+            font-size: 18px; color: var(--text-secondary); line-height: 1.7;
+        }
+        main { max-width: 720px; margin: 0 auto; padding: 0 24px 64px; }
+        .faq-list { border-top: 1px solid var(--border); }
+        .faq-item {
+            padding: 28px 0; border-bottom: 1px solid var(--border);
+        }
+        .faq-item h2 {
+            font-family: var(--font-display); font-size: 20px;
+            font-weight: 600; margin-bottom: 12px; color: var(--text-primary);
+        }
+        .faq-item p {
+            font-size: 16px; color: var(--text-secondary); line-height: 1.7;
+        }
+        footer {
+            background: var(--bg-secondary); border-top: 1px solid var(--border);
+            padding: 48px 24px; margin-top: 64px;
+        }
+        .footer-inner {
+            max-width: 1100px; margin: 0 auto;
+            display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px;
+        }
+        .footer-brand .logo { display: inline-block; margin-bottom: 12px; }
+        .footer-brand p { font-size: 14px; color: var(--text-muted); line-height: 1.6; }
+        .footer-links h4 {
+            font-size: 12px; font-weight: 600; text-transform: uppercase;
+            letter-spacing: 0.5px; margin-bottom: 12px;
+        }
+        .footer-links a {
+            display: block; color: var(--text-muted); text-decoration: none;
+            font-size: 14px; margin-bottom: 8px; transition: color 0.2s;
+        }
+        .footer-links a:hover { color: var(--accent); }
+        .footer-bottom {
+            max-width: 1100px; margin: 32px auto 0; padding-top: 24px;
+            border-top: 1px solid var(--border); display: flex;
+            justify-content: space-between; font-size: 13px; color: var(--text-muted);
+        }
+        @media (max-width: 768px) {
+            nav { display: none; }
+            h1 { font-size: 32px; }
+            .footer-inner { grid-template-columns: 1fr; gap: 24px; }
+        }
+    
+        /* Medical Reviewer Badge */
+        .medical-reviewer { display: flex; align-items: center; gap: 0.4rem; margin-top: 0.75rem; padding: 0.5rem 0.75rem; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 6px; font-size: 0.8rem; color: #0f766e; width: fit-content; }
+        .medical-reviewer svg { flex-shrink: 0; }
+        .medical-disclaimer { font-size: 0.75rem; color: var(--text-muted, #94a3b8); margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border, #e2e8f0); }
+    </style>
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://thyroid.md/faq.html#faq",
+  "url": "https://thyroid.md/faq.html",
+  "name": "Thyroid FAQ — Common Questions About Symptoms, Labs, and Treatment",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://thrive.md/#organization",
+    "name": "thrive.md",
+    "url": "https://thrive.md"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does the thyroid do?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The thyroid is a small gland at the front of the neck that makes the hormones T4 (thyroxine) and T3 (triiodothyronine). Those hormones set the pace of your metabolism, and they influence heart rate, body temperature, digestion, energy, and mood. Too little hormone slows those systems down; too much speeds them up."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is TSH, and what is a normal level?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "TSH (thyroid-stimulating hormone) is made by the pituitary gland and tells the thyroid how much hormone to produce. It is the first test most clinicians order because it rises when thyroid hormone is low and falls when it is high. For people treated for hypothyroidism, the American Thyroid Association describes adjusting the dose to keep TSH in the range of 0.4 to 4.0 mIU/L while resolving symptoms. Individual laboratory reference ranges differ, and targets change in pregnancy and in older adults."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the symptoms of an underactive thyroid?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hypothyroidism tends to produce fatigue, weight gain, sensitivity to cold, dry skin, thinning hair, constipation, muscle aches, heavier or irregular periods, a slowed heart rate, and low mood or difficulty concentrating. Symptoms usually come on gradually over months, which is why they are often attributed to stress or aging first."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the symptoms of an overactive thyroid?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hyperthyroidism tends to produce unintended weight loss, a fast or irregular heartbeat, sensitivity to heat, sweating, tremor in the hands, anxiety or irritability, more frequent bowel movements, and trouble sleeping. Graves' disease can also cause eye symptoms such as bulging, irritation, or double vision."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What causes hypothyroidism?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In the United States and other places where dietary iodine is adequate, Hashimoto's thyroiditis is the most common cause. Other causes include thyroid surgery, radioactive iodine treatment, radiation to the neck, and certain medications such as amiodarone and lithium. Worldwide, iodine deficiency remains a major cause."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is Hashimoto's disease?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hashimoto's thyroiditis is an autoimmune condition in which the immune system produces antibodies against thyroid tissue, gradually reducing hormone production. A 2022 systematic review and meta-analysis estimated global prevalence at about 7.5% of adults, with prevalence in women roughly four times that in men. Diagnosis usually combines TSH and free T4 with thyroid peroxidase (TPO) antibody testing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is hypothyroidism treated?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Levothyroxine, a synthetic form of T4, remains the standard of care. The American Thyroid Association states that no consistently strong evidence supports the superiority of alternative therapies. Treatment aims at three things: resolving symptoms, normalizing TSH, and avoiding overtreatment, which matters particularly in older adults because excess thyroid hormone raises the risk of atrial fibrillation and bone loss."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How should I take levothyroxine?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Consistency matters more than the exact hour. The American Thyroid Association describes taking it either about 60 minutes before breakfast or at bedtime with a gap of about four hours after eating. Calcium and iron supplements reduce absorption and should be separated from the dose by about four hours. TSH is rechecked some weeks after any dose change; your clinician sets that interval."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does a thyroid problem explain weight gain?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Untreated hypothyroidism can cause weight gain, but the amount is usually modest and much of it is retained fluid rather than fat. Treating the deficiency restores normal metabolic rate; it is not a weight-loss treatment. Thyroid hormone prescribed to people with normal thyroid function for weight loss is not appropriate and carries real cardiac and bone risk."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I take iodine or an over-the-counter thyroid supplement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not without testing and clinical advice. In iodine-sufficient countries most people get enough from diet, and excess iodine can trigger or worsen thyroid dysfunction. Some over-the-counter 'thyroid support' products have been found to contain actual thyroid hormone that is not listed on the label, which can cause unintentional overdose."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is thyroid disease more common in women?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most thyroid disease is autoimmune, and autoimmune conditions are substantially more common in women. In Hashimoto's thyroiditis, prevalence in women is about four times that in men. Pregnancy and the postpartum period are also common times for thyroid dysfunction to appear."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can thyroid disease be cured?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hypothyroidism from Hashimoto's is usually permanent and managed long-term with daily levothyroxine, which for most people fully controls it. Hyperthyroidism is different: antithyroid medication, radioactive iodine, or surgery can end the overactivity, though the last two often leave a person needing thyroid hormone replacement afterward."
+      }
+    }
+  ]
+}
+    </script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "thyroid.md",
+      "item": "https://thyroid.md/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "FAQ",
+      "item": "https://thyroid.md/faq.html"
+    }
+  ]
+}
+    </script>
 </head>
 <body>
-    <p>This page has moved to <a href="https://thyroid.md/">https://thyroid.md/</a>.</p>
-    <script>window.location.replace("https://thyroid.md/");</script>
+    <header>
+        <div class="header-inner">
+            <a href="/" class="logo">thyroid<span>.md</span></a>
+            <nav>
+                <a href="/">Home</a>
+                <a href="/resources.html">Resources</a>
+                <a href="/faq.html">FAQ</a>
+                <a href="/blog/">Blog</a>
+            </nav>
+        </div>
+    </header>
+    <div class="page-header">
+        <h1>Frequently Asked Questions</h1>
+        <p class="page-intro">Common questions about thyroid function, thyroid lab tests, and treatment. Answers follow American Thyroid Association guidance and NIH sources. This is general information, not a substitute for care from your own clinician.</p>
+    </div>
+    <main>
+        <div class="faq-list">
+            <div class="faq-item">
+                <h2>What does the thyroid do?</h2>
+                <p>The thyroid is a small gland at the front of the neck that makes the hormones T4 (thyroxine) and T3 (triiodothyronine). Those hormones set the pace of your metabolism, and they influence heart rate, body temperature, digestion, energy, and mood. Too little hormone slows those systems down; too much speeds them up.</p>
+            </div>
+            <div class="faq-item">
+                <h2>What is TSH, and what is a normal level?</h2>
+                <p>TSH (thyroid-stimulating hormone) is made by the pituitary gland and tells the thyroid how much hormone to produce. It is the first test most clinicians order because it rises when thyroid hormone is low and falls when it is high. For people treated for hypothyroidism, the American Thyroid Association describes adjusting the dose to keep TSH in the range of 0.4 to 4.0 mIU/L while resolving symptoms. Individual laboratory reference ranges differ, and targets change in pregnancy and in older adults.</p>
+            </div>
+            <div class="faq-item">
+                <h2>What are the symptoms of an underactive thyroid?</h2>
+                <p>Hypothyroidism tends to produce fatigue, weight gain, sensitivity to cold, dry skin, thinning hair, constipation, muscle aches, heavier or irregular periods, a slowed heart rate, and low mood or difficulty concentrating. Symptoms usually come on gradually over months, which is why they are often attributed to stress or aging first.</p>
+            </div>
+            <div class="faq-item">
+                <h2>What are the symptoms of an overactive thyroid?</h2>
+                <p>Hyperthyroidism tends to produce unintended weight loss, a fast or irregular heartbeat, sensitivity to heat, sweating, tremor in the hands, anxiety or irritability, more frequent bowel movements, and trouble sleeping. Graves&#x27; disease can also cause eye symptoms such as bulging, irritation, or double vision.</p>
+            </div>
+            <div class="faq-item">
+                <h2>What causes hypothyroidism?</h2>
+                <p>In the United States and other places where dietary iodine is adequate, Hashimoto&#x27;s thyroiditis is the most common cause. Other causes include thyroid surgery, radioactive iodine treatment, radiation to the neck, and certain medications such as amiodarone and lithium. Worldwide, iodine deficiency remains a major cause.</p>
+            </div>
+            <div class="faq-item">
+                <h2>What is Hashimoto&#x27;s disease?</h2>
+                <p>Hashimoto&#x27;s thyroiditis is an autoimmune condition in which the immune system produces antibodies against thyroid tissue, gradually reducing hormone production. A 2022 systematic review and meta-analysis estimated global prevalence at about 7.5% of adults, with prevalence in women roughly four times that in men. Diagnosis usually combines TSH and free T4 with thyroid peroxidase (TPO) antibody testing.</p>
+            </div>
+            <div class="faq-item">
+                <h2>How is hypothyroidism treated?</h2>
+                <p>Levothyroxine, a synthetic form of T4, remains the standard of care. The American Thyroid Association states that no consistently strong evidence supports the superiority of alternative therapies. Treatment aims at three things: resolving symptoms, normalizing TSH, and avoiding overtreatment, which matters particularly in older adults because excess thyroid hormone raises the risk of atrial fibrillation and bone loss.</p>
+            </div>
+            <div class="faq-item">
+                <h2>How should I take levothyroxine?</h2>
+                <p>Consistency matters more than the exact hour. The American Thyroid Association describes taking it either about 60 minutes before breakfast or at bedtime with a gap of about four hours after eating. Calcium and iron supplements reduce absorption and should be separated from the dose by about four hours. TSH is rechecked some weeks after any dose change; your clinician sets that interval.</p>
+            </div>
+            <div class="faq-item">
+                <h2>Does a thyroid problem explain weight gain?</h2>
+                <p>Untreated hypothyroidism can cause weight gain, but the amount is usually modest and much of it is retained fluid rather than fat. Treating the deficiency restores normal metabolic rate; it is not a weight-loss treatment. Thyroid hormone prescribed to people with normal thyroid function for weight loss is not appropriate and carries real cardiac and bone risk.</p>
+            </div>
+            <div class="faq-item">
+                <h2>Should I take iodine or an over-the-counter thyroid supplement?</h2>
+                <p>Not without testing and clinical advice. In iodine-sufficient countries most people get enough from diet, and excess iodine can trigger or worsen thyroid dysfunction. Some over-the-counter &#x27;thyroid support&#x27; products have been found to contain actual thyroid hormone that is not listed on the label, which can cause unintentional overdose.</p>
+            </div>
+            <div class="faq-item">
+                <h2>Why is thyroid disease more common in women?</h2>
+                <p>Most thyroid disease is autoimmune, and autoimmune conditions are substantially more common in women. In Hashimoto&#x27;s thyroiditis, prevalence in women is about four times that in men. Pregnancy and the postpartum period are also common times for thyroid dysfunction to appear.</p>
+            </div>
+            <div class="faq-item">
+                <h2>Can thyroid disease be cured?</h2>
+                <p>Hypothyroidism from Hashimoto&#x27;s is usually permanent and managed long-term with daily levothyroxine, which for most people fully controls it. Hyperthyroidism is different: antithyroid medication, radioactive iodine, or surgery can end the overactivity, though the last two often leave a person needing thyroid hormone replacement afterward.</p>
+            </div>
+        </div>
+    </main>
+
+    <div class="email-capture" style="background: linear-gradient(135deg, #f0fdfa 0%, #f8fafc 100%); border: 1px solid #ccfbf1; border-radius: 12px; padding: 2rem; margin: 2rem 0; text-align: center;">
+        <p style="font-family: 'Source Serif 4', Georgia, serif; font-size: 1.2rem; font-weight: 600; color: #0f172a; margin-bottom: 0.25rem;">Get evidence-based health updates</p>
+        <p style="color: #64748b; font-size: 0.9rem; margin-bottom: 1rem;">No spam. Unsubscribe anytime.</p>
+        <form class="email-form" style="display: flex; gap: 0.5rem; max-width: 420px; margin: 0 auto; flex-wrap: wrap; justify-content: center;" onsubmit="submitEmail(event)">
+            <input type="email" name="email" placeholder="you@example.com" required style="flex: 1; min-width: 200px; padding: 0.6rem 1rem; border: 1px solid #d1d5db; border-radius: 8px; font-size: 0.95rem; outline: none;">
+            <input type="hidden" name="source" value="thyroid.md">
+            <button type="submit" style="padding: 0.6rem 1.5rem; background: #0d9488; color: white; border: none; border-radius: 8px; font-size: 0.95rem; font-weight: 500; cursor: pointer;">Subscribe</button>
+        </form>
+        <p class="email-success" style="display: none; color: #0d9488; margin-top: 0.75rem; font-weight: 500;">✓ You're in! Check your inbox.</p>
+    </div>
+    <script>
+    function submitEmail(e) {
+        e.preventDefault();
+        const form = e.target;
+        const data = new FormData(form);
+        fetch('https://script.google.com/macros/s/AKfycbwUqO3zauyG_tuCZk0NALIDybayC7JhTbSm7RcQhivv6Lq0XCrQ8YgopTFqXjMSwt72/exec', {
+            method: 'POST', body: data, mode: 'no-cors'
+        }).then(() => {
+            form.style.display = 'none';
+            form.parentElement.querySelector('.email-success').style.display = 'block';
+        });
+    }
+    </script>
+
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <a href="/" class="logo">thyroid<span>.md</span></a>
+                <p>Part of the <a href="https://thrive.md" style="color: var(--accent); text-decoration: none;">thrive.md</a> health network.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Resources</h4>
+                <a href="/resources.html">Resource Library</a>
+                <a href="/faq.html">Common Questions</a>
+                <a href="/blog/">Articles</a>
+            </div>
+            <div class="footer-links">
+                <h4>About</h4>
+                <a href="https://thrive.md/editorial-policy.html">Editorial Policy</a>
+                <a href="https://thrive.md/medical-review.html">Medical Review</a>
+                <a href="https://thrive.md/disclaimer.html">Medical Disclaimer</a>
+                <a href="https://thrive.md/privacy.html">Privacy</a>
+                <a href="https://thrive.md/terms.html">Terms</a>
+                <a href="mailto:hello@thrive.md">Contact</a>
+            </div>
+            <div class="footer-links">
+                <h4>Network</h4>
+                <a href="https://thrive.md">thrive.md</a>
+                <a href="https://anxiety.md">anxiety.md</a>
+                <a href="https://adhd.md">adhd.md</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 thyroid.md</p>
+            <p>Medical information, not medical advice</p>
+        </div>
+    </footer>
 </body>
 </html>
